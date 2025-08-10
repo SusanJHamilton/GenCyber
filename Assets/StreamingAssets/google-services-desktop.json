@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "540128518405",
+    "project_id": "cybersecurity-fea4d",
+    "storage_bucket": "cybersecurity-fea4d.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:540128518405:android:6566ffb9bc99e37b86176c",
+        "android_client_info": {
+          "package_name": "com.IMPACT.IMPACT"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBIa-nU-rrc_TJL82DZE9vgr3GZ2bfjxos"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

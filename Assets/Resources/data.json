@@ -1,0 +1,124 @@
+{
+    "items": [
+        {
+            "id": "welcome_message",
+            "useCase": "message",
+            "type": "system_message",
+            "title": "How to play",
+            "content": "You are now being trapped in this room. Your goal is to escape this room by cracking the password set by the room owner. The key to success lies hidden within this room—three essential pieces of information that will enable you to crack the password. As you proceed, you will need to leverage your knowledge of <b><color=yellow>cybersecurity principles</color></b> and sharpen your analytical prowess. Look closely; clues are embedded throughout the environment, each designed to test your understanding of <b><color=yellow>password security</color></b> and the cunning tactics of <b><color=yellow>social engineering</color></b>. Decode messages, solve puzzles, and navigate through the intricacies of digital security. Prepare yourself, Agent. It's time to delve deep into the world of cybersecurity, uncover hidden secrets, and demonstrate your skills. Your mission starts now. Good luck! \n\n You can move around the room using the <color=#FFFF00>W, <color=#FFFF00>A, <color=#FFFF00>S, and <color=#FFFF00>D keys on your keyboard while holding the <color=#FFFF00>right mouse button. Using the <b><color=yellow>Spacebar</color></b> you can examine the world around you to help you find clues.",
+            "img": "none"
+        },
+        {
+            "id": "book_1",
+            "useCase": "info",
+            "type": "text",
+            "title": "Password Cracking Technique",
+            "content": "This book reveals insights into various password cracking techniques. Learn how attackers use methods like <b><color=yellow>dictionary attacks</color></b>, where common words or phrases are used to guess passwords, and <b><color=yellow>brute force attacks</color></b>, which involve trying every possible combination of characters until the correct password is found. Additionally, it explores the concept of <b><color=yellow>social engineering</color></b>, a manipulation technique that tricks people into breaking normal security procedures. Understanding these techniques will help you recognize and defend against potential cybersecurity threats.",
+            "img": "Images/book_1_image"
+        },
+        {
+            "id": "book_2",
+            "useCase": "info",
+            "type": "text",
+            "title": "Cybersecurity Fundamentals",
+            "content": "This book introduces the foundational concept of the <b><color=yellow>CIA Triad</color></b> in cybersecurity. This principle emphasizes three key aspects: <b><color=yellow>Confidentiality</color></b>, ensuring that information is accessible only to authorized individuals; <b><color=yellow>Integrity</color></b>, guaranteeing that the information is accurate and reliable; and <b><color=yellow>Availability</color></b>, ensuring that authorized users get reliable access to the information when needed. This triad serves as the cornerstone for developing secure systems and for understanding how to protect data effectively.",
+            "img": "Images/book_2_image"
+        },
+        {
+            "id": "file_1",
+            "useCase": "info",
+            "type": "text",
+            "title": "Case Study 1: The Equifax Data Breach",
+            "content": "<b><color=yellow>Incident Overview</color></b>: In 2017, Equifax, one of the largest credit reporting agencies, suffered a massive data breach that exposed the sensitive personal information of approximately 147 million people. The breach included Social Security numbers, birth dates, addresses, and, in some instances, driver's license numbers.\n\n<b><color=yellow>How It Happened</color></b>: Hackers exploited a known vulnerability in the Apache Struts web application framework used by Equifax's online disputes portal. Despite a fix being available for this vulnerability, Equifax failed to update its systems in time, allowing hackers to access their networks for several months.\n\n<b><color=yellow>Consequences</color></b>: The breach led to widespread identity theft concerns and prompted investigations by federal agencies, resulting in a settlement of up to $700 million. Equifax also faced significant public backlash and scrutiny over their delayed response and inadequate security measures.\n\n<b><color=yellow>Prevention Strategies</color></b>: \n- Regular software updates and patch management to address vulnerabilities.\n- Comprehensive security audits and real-time vulnerability assessments.\n- Enhanced monitoring of critical systems and implementing a robust incident response strategy.",
+            "img": "none"
+        },
+        {
+            "id": "file_2",
+            "useCase": "info",
+            "type": "text",
+            "title": "Case Study 2: The WannaCry Ransomware Attack",
+            "content": "<b><color=yellow>Incident Overview</color></b>: In May 2017, the WannaCry ransomware attack affected over 230,000 computers in over 150 countries. The malware encrypted data on the computers, demanding ransom payments in Bitcoin to restore access. The attack targeted computers running the Microsoft Windows operating system.\n\n<b><color=yellow>How It Happened</color></b>: The attack exploited a vulnerability in Microsoft Windows SMB (Server Message Block) protocol, known as EternalBlue, which was believed to have been developed by the U.S. National Security Agency and leaked by the Shadow Brokers hacker group. Although Microsoft had released patches for the vulnerability two months prior to the attack, many organizations had not applied the updates.\n\n<b><color=yellow>Consequences</color></b>: WannaCry disrupted critical infrastructure and businesses, including hospitals in the UK, telecommunications firms in Spain, and various other organizations worldwide. The total damages from the attack are estimated to be in the billions of dollars.\n\n<b><color=yellow>Prevention Strategies</color></b>:\n- Timely application of software patches and updates to close security vulnerabilities.\n- Regular backups of critical data to reduce the impact of data ransom and loss.\n- Employee training on malware awareness and phishing attack prevention.",
+            "img": "none"
+        },
+        {
+            "id": "magazine_1",
+            "useCase": "info",
+            "type": "text",
+            "title": "Cybersecurity Magazine",
+            "content": "In a recent unsettling revelation, the data of Acme Corp. was compromised due to a cybersecurity oversight. An employee, using a password that included his birthdate and pet's name, fell victim to a targeted attack. Cybersecurity experts point out that personal information often used in passwords can easily be accessed by attackers through social media or other public records. This incident highlights a critical vulnerability and underscores the urgent need for individuals and organizations to adopt robust password practices and avoid incorporating easily accessible personal information in their security credentials.",
+            "img": "Images/magazine_1_image"
+        },
+        {
+            "id": "magazine_2",
+            "useCase": "clue",
+            "type": "text",
+            "title": "Article Cutout",
+            "content": "An article cutout titled 'Understanding Dictionary Attacks: Use, Engineering, Purpose, and Defense.' the article reads:\n\n \"A dictionary attack is a method used by cybercriminals to gain unauthorized access to a system by systematically entering every word in a predefined list, known as a 'dictionary.' The primary purpose of this attack is to guess passwords, decryption keys, or other sensitive information by leveraging commonly used words or phrases. Unlike brute force attacks, which attempt every possible combination of characters, dictionary attacks rely on the fact that many users choose simple and predictable passwords that are likely to be found in a dictionary.\n\nThe engineering behind a dictionary attack involves compiling extensive lists of common passwords, which may include words from dictionaries, known compromised passwords, and common variations (like adding numbers or symbols). Attackers use specialized software to automate the process, allowing them to rapidly test each word or phrase against the target system. These tools are designed to handle high volumes of attempts, bypassing account lockout mechanisms by distributing the attack across multiple accounts or using sophisticated timing strategies.\n\nIn real-life scenarios, dictionary attacks are often employed to crack weak passwords. For instance, if a user sets their password to 'password123,' it would be easily guessed by a dictionary attack as it is a common and simple password. These attacks are not limited to online accounts but can also target encrypted files or systems. By leveraging predictable user behavior, attackers can quickly gain unauthorized access to sensitive information, posing significant security risks to individuals and organizations alike.\n\nDefending against dictionary attacks requires a multi-faceted approach. One of the most effective strategies is to encourage the use of complex and unique passwords that are difficult to guess. This can be achieved through password policies that mandate a mix of upper and lower case letters, numbers, and special characters. Additionally, implementing account lockout mechanisms after a certain number of failed login attempts can thwart automated attacks. Two-factor authentication (2FA) adds an extra layer of security by requiring a second form of verification, making it significantly harder for attackers to gain access even if they guess the password. Finally, educating users about the importance of password security and the risks associated with weak passwords can further bolster defenses against dictionary attacks.\n\nIn conclusion, while dictionary attacks exploit the tendency of users to choose easily guessable passwords, robust security practices and awareness can effectively mitigate the threat. By prioritizing strong password policies, implementing advanced authentication mechanisms, and educating users, organizations can protect themselves from this prevalent form of cyberattack.\"\n\nAt the bottom of the page, written in marker is \"@RUT3F0RC3\"",
+            "img": "Images/magazine_1_image"
+        },
+        {
+            "id": "picture_1",
+            "useCase": "clue",
+            "type": "image",
+            "title": "Scibbled picture",
+            "content": "A name of someone who is loved... It seems like the owner of this room has a special someone in their life....",
+            "img": "Images/picture_1"
+        },
+        {
+            "id": "usb",
+            "useCase": "item",
+            "type": "image",
+            "title": "USB stick",
+            "content": "This is a USB drive that contains the necessary software to operate the Password Cracking Machine. Insert the USB drive into the machine to start the password cracking process.",
+            "img": "Images/usb"
+        },
+        {
+            "id": "trophy",
+            "useCase": "clue",
+            "type": "image",
+            "title": "Trophy for DEFCON HOTY - 2019",
+            "content": "It seems like the owner of this room has won the DEFCON Hacker of the Year award in 2019. This trophy is a testament to their exceptional skills and expertise in the field of cybersecurity. Perhaps this information could be useful in cracking the password...",
+            "img": "Images/trophy_img"
+        },
+        {
+            "id": "stickynote",
+            "useCase": "clue",
+            "type": "image",
+            "title": "Sticky note stuck to PC",
+            "content": "IN CASE OF EMERGENCY, POSSIBLE PASSWORD COMBINATIONS: C1PH3RS, Cyb3r, LVB, RoCCO123, W!NN34, ESCAPE",
+            "img": "none"
+        },
+        {
+            "id": "foodbowl",
+            "useCase": "clue",
+            "type": "image",
+            "title": "Dog's Food Bowl",
+            "content": "There's a dog's food bowl with the name \"Rocco\" printed onto it",
+            "img": "none"
+        },
+        {
+            "id": "mail",
+            "useCase": "clue",
+            "type": "image",
+            "title": "Stack of Mail",
+            "content": "Some leftover mail from the target. There's a few items. There's a letter from a funeral service, and another empty envelope with \"tothestars\" written on it.",
+            "img": "none"
+        },
+        {
+            "id": "voicemail",
+            "useCase": "clue",
+            "type": "audio",
+            "title": "Old Voicemail",
+            "content": "There is a voicemail from a couple years ago. \"Hey James! I mean Cipher, sorry. You like to be called that now, right? I’m sorry to hear about what happened to Rebecca. I know what officials say happened, but I want to know more about your side and what you mean when you say a scam 'sucked her into the terminal'. Also, how is your company CipherSuite doing? Employees are saying they haven't heard from you recently. We should catch up. Call me back, will ya?\"",
+            "img": "none"
+        },
+        {
+            "id": "blueKey",
+            "useCase": "item",
+            "type": "image",
+            "title": "Blue keycard",
+            "content": "A keycard. There's a code on it. 'LRRF' maybe it unlocks something?",
+            "img": "none"
+        }
+    ]
+}
